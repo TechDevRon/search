@@ -1,0 +1,43 @@
+input:focus{
+	outline:2px solid blue;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-image: url(https://cdn.discordapp.com/attachments/1354468700622684270/1354468701033730078/sailor.png?ex=67e76107&is=67e60f87&hm=e4437b1c8a37d940e0361680ab5e1491dbbb7ce3b124901b3853f3fec10ee06e&);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	color: black;
+	background-color: white;
+}
+
+
+.search{
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
+  	text-align: center;
+  	min-height: 90vh;
+}
+
+#queryInput, #submit{
+	height: 30px;
+	width: 500px;
+	border: 1px rgba(255,255,255,0.5) solid;
+	background-color:white;
+	padding-left: 8px;
+	margin-right: 10px
+}
+input,button{
+	box-shadow: 3px 8px 5px rgba(255,255,255,0.5);
+	border-radius: 50px;
+}
+
+#submit{
+	width: 50px;
+	height: 35px;
+}
